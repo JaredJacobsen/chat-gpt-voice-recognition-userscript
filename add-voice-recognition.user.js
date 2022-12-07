@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name        chat-gpt-voice-recognition-userscript
+// @match       https://chat.openai.com/chat
+// @version     2022.12.7
+// @author      Jared Jacobsen (https://github.com/JaredJacobsen)
+// @license     MIT
+// @description A userscript to add voice recognition to Chat GPT
+// ==/UserScript==
+
 let textArea;
 let transcript = '';
 var recognition = new webkitSpeechRecognition();
